@@ -1,0 +1,17 @@
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cityinp{
+    height: 30px;
+    width: 70%;
+    border-radius: 60px;
+    text-align: center;
+    font-size: l;
+    outline: none;
+}
+.search-btn{
+    height: 30px;
+    border-radius: 200px;
+}

@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f7fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    height: 450px;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(145deg, #2F80ED, #56CCF2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.icon {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.data {
+    text-align: center;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFEE00;
+    margin: 5px 0;
+}
+
+.state {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.other-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    color: white;
+}
+
+.other i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.humid-data,
+.feels-like-data {
+    font-size: 14px;
+    text-align: center;
+}
+
+.i {
+    margin-right: 5px;
+}
